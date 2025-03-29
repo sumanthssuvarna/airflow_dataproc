@@ -5,7 +5,7 @@ from pyspark.sql.functions import col
 INPUT_GCS_PATH = "gs://us-central1-sumanth1-750c33f0-bucket/dags/input_data.csv"
 BQ_OUTPUT_DATASET = "Company"
 BQ_OUTPUT_TABLE = "employees"
-BQ_PROJECT_ID = "ford-3040efdcfdf64026be237121"  # Specify your GCP project ID
+BQ_PROJECT_ID = "sss-3040efdcfdf64026be237121"  # Specify your GCP project ID
 
 # Create a SparkSession
 spark = SparkSession.builder \
